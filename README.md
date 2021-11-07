@@ -1,2 +1,2 @@
 # discord-activity-updater
-Automaticly update your Discord activity
+Automatically update your Discord activity
