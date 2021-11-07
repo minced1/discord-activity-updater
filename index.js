@@ -8,7 +8,11 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 // When the client is ready, run this code (only once)
 client.once('ready', () => {
 	console.log('Ready!');
+    // Set the client user's presence
+    client.user.setPresence({ activities: [{ name: 'with discord.js' }], status: 'idle' });
 });
+
+
 
 // Login to Discord with your client's token
 client.login(token);
