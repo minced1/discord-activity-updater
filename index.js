@@ -3,7 +3,7 @@ const { Client, Intents } = require('discord.js');
 const { token } = require('./config.json');
 
 // Create a new client instance
-const client = new DiscordClient();
+const client = new Discord.Client();
 
 // When the client is ready, run this code (only once)
 client.once('ready', () => {
